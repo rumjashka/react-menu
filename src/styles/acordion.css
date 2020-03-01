@@ -1,0 +1,46 @@
+#accordion {
+  margin-top: 20px;
+}
+
+.tab .title {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+.tab .content {
+  padding: 10px;
+  border: 1px 0 1px 1px;
+  border-style: solid;
+  border-color: #f4f4f4;
+}
+
+.flex {
+  display: flex;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.jc_btwn {
+  justify-content: space-between;
+}
+
+.tab_style {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-family: MaisonNeueBold;
+  font-size: 4vw;
+  position: relative;
+  text-align: left;
+  letter-spacing: 0.15em;
+  padding: 6vw 12vw;
+  color: black;
+}
+.tab {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}

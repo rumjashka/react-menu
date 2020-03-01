@@ -1,0 +1,70 @@
+.container {
+  margin: 3rem auto;
+  max-width: 600px;
+}
+.burger_menu {
+  display: inline-block;
+  cursor: pointer;
+}
+.burger_line1,
+.burger_line2,
+.burger_line3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .burger_line1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.change .burger_line2 {
+  opacity: 0;
+}
+
+.change .burger_line3 {
+  -webkit-transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.img_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+.block_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.img_item {
+  margin: 0.5rem;
+  height: 50vw;
+}
+.img_text {
+  position: absolute;
+  bottom: 5vw;
+  left: 5vw;
+  font-size: 4.5vw;
+  font-family: "MaisonNeueMedium";
+  letter-spacing: 0.025em;
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+li {
+  font-family: MaisonNeueBook;
+  color: black;
+  display: block;
+  font-size: 3.06667vw;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3.33333vw 12vw;
+  text-decoration: none;
+}

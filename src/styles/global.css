@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "MaisonNeueBook";
+  src: url("/fonts/MaisonNeue-Book.woff2");
+  src: url("/fonts/MaisonNeue-Book.woff") format("woff");
+}
+@font-face {
+  font-family: "MaisonNeueBold";
+  src: url("/fonts/MaisonNeue-Bold.woff2");
+  src: url("/fonts/MaisonNeue-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "MaisonNeueMedium";
+  src: url("/fonts/MaisonNeue-Medium.woff2");
+  src: url("/fonts/MaisonNeue-Medium.woff") format("woff");
+}
+
+html {
+  background-color: white;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  width: 25vw;
+}
